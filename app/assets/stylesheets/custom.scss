@@ -1,7 +1,63 @@
 @import "bulma";
 
-#main-img {
-  height:inherit;
-  width:inherit;
-  max-height: 75vh;
+#sidebar {
+  width: 255px;
+  padding: 0.8rem;
+}
+div.field-label.is-normal {
+  padding-top: 0.375em !important;
+}
+
+hr {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.4;
+}
+
+.is-horizontal {
+  display: flex !important;
+}
+
+.field-label {
+  margin-right: 1.5rem !important;
+  text-align: right !important;
+}
+
+.field-body {
+  display: flex !important;
+  flex-basis: 0 !important;
+  flex-grow: 5 !important;
+  flex-shrink: 1 !important;
+}
+
+.field-body > .field {
+  flex-grow: 1 !important;
+  flex-shrink: 1 !important;
+  margin-bottom: 0 !important
+}
+
+img {
+  padding: 1px;
+}
+
+td {
+  padding-left: 0 !important;
+  padding-right:0 !important;
+}
+
+#product-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
